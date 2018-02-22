@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Samsung Galaxy G6100
+PRODUCT_RELEASE_NAME := Samsung Galaxy On7(2016)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
