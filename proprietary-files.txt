@@ -743,6 +743,33 @@ vendor/lib/libchromatix_sr259_vt_lc898122.so
 vendor/lib/libchromatix_sr259_zsl_preview_lc898122.so
 vendor/lib/libchromatix_sr259_zsl_video_lc898122.so
 
+# Camera Actuator
+vendor/lib/libactuator_ad5816g.so
+vendor/lib/libactuator_ad5823.so
+vendor/lib/libactuator_ak7345.so
+vendor/lib/libactuator_ak7371.so
+vendor/lib/libactuator_bu64244gwz.so
+vendor/lib/libactuator_bu64297.so
+vendor/lib/libactuator_dw9714.so
+vendor/lib/libactuator_dw9716.so
+vendor/lib/libactuator_dw9761b.so
+vendor/lib/libactuator_dw9806.so
+vendor/lib/libactuator_dw9807.so
+vendor/lib/libactuator_lc898122.so
+vendor/lib/libactuator_lc898212xd.so
+vendor/lib/libactuator_rohm_bu64243gwz.so
+vendor/lib/libactuator_zc535.so
+
+# Camera firmware
+etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw
+etc/firmware/cpp_firmware_v1_5_0.fw
+etc/firmware/cpp_firmware_v1_5_2.fw
+etc/firmware/cpp_firmware_v1_6_0.fw
+etc/firmware/cpp_firmware_v1_8_0.fw
+etc/firmware/cpp_firmware_v1_10_0.fw
 
 # FingerPrint
 lib/libbauthserver.so
