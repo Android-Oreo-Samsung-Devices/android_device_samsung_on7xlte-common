@@ -563,10 +563,12 @@ vendor/lib/libchromatix_sr259_zsl_video_lc898122.so
 lib/libbauthserver.so
 lib/libbauthtzcommon.so
 lib/libegis_fp_normal_sensor_test.so
+lib/libfidoauthnr_v1.so
 lib/libsynaFpSensorTestNwd.so
 lib64/libbauthserver.so
 lib64/libbauthtzcommon.so
 lib64/libegis_fp_normal_sensor_test.so
+lib64/libfidoauthnr_v1.so
 lib64/libsynaFpSensorTestNwd.so
 
 # Sensors
