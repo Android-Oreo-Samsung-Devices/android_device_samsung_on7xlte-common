@@ -1,8 +1,8 @@
 # RIL
 PRODUCT_PACKAGES += \
-    librilutils
+    libril \
     librilutils \
-    libxml2
+    rild
 
 # Permissions
 PRODUCT_COPY_FILES += \
