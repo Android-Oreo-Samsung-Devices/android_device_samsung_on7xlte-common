@@ -10,11 +10,7 @@ lib/libarcsoft_wideselfie.so
 lib/libatomjpeg.so
 lib/libdmcFaceEngine.so
 lib/libedmnativehelper.so
-lib/libcamera2ndk.so
-lib/libcamera_client.so
-lib/libcamera_metadata.so
-lib/libcameraservice.so
-lib/libcameraservice_cameramodule.so
+lib/libmm-qcamera.so
 lib/libmmcamera2_is.so
 lib/libmmcamera2_q3a_core.so
 lib/libmmcamera2_stats_algorithm.so
@@ -22,9 +18,9 @@ lib/libmmcamera_interface.so
 lib/libmmcamera_pdaf.so
 lib/libmmcamera_pdafcamif.so
 lib/libmmjpeg_interface.so
-lib/libmm-omxcore.so
-lib/libmm-qcamera.so
+lib/libcameraservice_cameramodule.so
 lib/libpalmMobileDetectorFull.so
+lib/libQjpeg.so
 lib/libqomx_core.so
 lib/libquramresize.so
 lib/libsccore.so
@@ -34,11 +30,11 @@ lib/libSisoCameraDistortionEffects.so
 lib/libsupershot.so
 lib64/libarcsoft_bestphoto_select.so
 lib64/libatomjpeg.so
+lib64/libQjpeg.so
 lib64/libsccore.so
 lib64/libsecjpegquram.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libjpega.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -48,6 +44,7 @@ vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
+
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_dcrf.so
@@ -125,7 +122,6 @@ vendor/lib/libmmcamera_llvd.so
 vendor/lib/libmmcamera_m24c64s_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so
-vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_ov13850.so
 vendor/lib/libmmcamera_ov13850_q13v06k.so
@@ -144,8 +140,6 @@ vendor/lib/libmmcamera_s5k3l2xx.so
 vendor/lib/libmmcamera_s5k3m2xm.so
 vendor/lib/libmmcamera_s5k3m2xx.so
 vendor/lib/libmmcamera_s5k3p3sx.so
-vendor/lib/libmmcamera_s5k3p8sx.so
-vendor/lib/libmmcamera_s5k3p8sx_ak7372.so
 vendor/lib/libmmcamera_s5k4h5yc.so
 vendor/lib/libmmcamera_s5k5e3yx.so
 vendor/lib/libmmcamera_s5k6b2yx.so
@@ -153,7 +147,6 @@ vendor/lib/libmmcamera_sony_imx214_eeprom.so
 vendor/lib/libmmcamera_sony_imx298_eeprom.so
 vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmcamera_sr259.so
-vendor/lib/libmmcamera_sr846.so
 vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sunny_8865_eeprom.so
 vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so
@@ -172,17 +165,16 @@ vendor/lib/libseemore.so
 vendor/lib/libSEF.so
 vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libts_detected_face_hal.so
-vendor/lib/libsemcamera_jni.so
-vendor/lib64/libmmcamera2_frame_algorithm.so
-vendor/lib64/libmmcamera2_sensor_debug.so
-vendor/lib64/libmmcamera_cac3_lib.so
 vendor/lib64/libmmcamera_dbg.so
+vendor/lib64/libmmcamera_cac3_lib.so
+vendor/lib64/libmmcamera2_sensor_debug.so
 vendor/lib64/libmmcamera_tintless_algo.so
+vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libsecimaging.so
 vendor/lib64/libsecjpeginterface.so
 vendor/lib64/libSEF.so
-vendor/lib64/libsemcamera_jni.so
+
 
 # Camera XML
 etc/camera/D05QL_s5k5e3yx_module_info.xml
