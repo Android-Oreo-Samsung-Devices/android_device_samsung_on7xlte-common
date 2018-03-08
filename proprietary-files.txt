@@ -761,7 +761,9 @@ etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
 etc/firmware/cpp_firmware_v1_10_0.fw
 
-# FingerPrint
+# Fingerprint
+lib/hw/fingerprint.default.so
+lib64/hw/fingerprint.default.so
 lib/libbauthserver.so
 lib/libbauthtzcommon.so
 lib/libegis_fp_normal_sensor_test.so
